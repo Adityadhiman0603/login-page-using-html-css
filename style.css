@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    color: azure;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+ background-color: black;
+ width:400px;
+height: 500px;
+opacity: 0.8;
+display: flex;
+flex-direction: column;
+align-items: center;
+ 
+}
+.white{
+    color: white;
+    margin:30px 0 10px 50px;
+    align-self: flex-start;
+    
+}
+.other{
+    width: 80%;
+    
+}
+.credentials{
+display: flex;
+flex-direction: column; 
+background-color: rgb(230, 230, 255);
+color: black;
+margin: 10px 0;
+border-radius: 10px;
+padding: 5px 20px; 
+
+
+
+}
+input[type="text"],input[type="password"]{
+    border: none;
+    height: 20px;
+    background-color: rgb(230, 230, 255);
+}
+input[type="text"]:focus,input[type="password"]:focus{
+    outline-width: 0;
+}
+
+button {
+    background-color: red;
+    color: white;
+    width: 100%;
+    padding: 15px 0;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    font-weight: 900;
+    font-size: 0.8rem;
+    font-family: inherit;
+}
+.questions{
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.sign-up-details{
+    margin-top: 50px;
+}
+.white-shade{
+    color:white;
+}
+.gray{
+    color:gray;
+}
+.small{
+    font-size: smaller;
+}
+.medium{
+    font-size: small;
+}
+.sign-up-details{
+    margin-bottom:10px ;
+}
+.blue{
+    color: #3333ff;
+    font-weight: 700;
+}
